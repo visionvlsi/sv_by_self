@@ -1,0 +1,165 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/dell/Desktop/edaplayground/adder
+T_opt
+!s11d adder_svh_unit C:/Users/dell/Desktop/edaplayground/adder/work 2 adder_if 1 C:/Users/dell/Desktop/edaplayground/adder/work clk_if 1 C:/Users/dell/Desktop/edaplayground/adder/work 
+!s110 1661217936
+V4`VzkD]L^o`B:f_Vjm;Oa2
+04 14 4 work adder_svh_unit fast 0
+04 2 4 work tb fast 0
+=1-4a41ba8389de-63042c90-bb-5b80
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+Yadder_if
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 DXx4 work 14 adder_svh_unit 0 22 __584DUk1=X97VeodQ5LG3
+Z5 !s110 1661217930
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 gKX5<VDnTkbBNFXgFD<]23
+I]zQLQW@SfKNgE1JXP[RWz1
+Z7 !s105 adder_svh_unit
+S1
+R1
+Z8 w1661216746
+Z9 8intf.sv
+Z10 Fintf.sv
+!i122 1
+L0 4 0
+Z11 OL;L;2021.1;73
+31
+Z12 !s108 1661217930.000000
+Z13 !s107 tb_top.sv|test.sv|env.sv|sco.sv|moni.sv|drv.sv|intf.sv|gen.sv|trans.sv|adder.sv|adder.svh|
+Z14 !s90 adder.svh|
+!i113 0
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xadder_svh_unit
+!s115 clk_if
+!s115 adder_if
+R3
+R5
+V__584DUk1=X97VeodQ5LG3
+r1
+!s85 0
+!i10b 1
+!s100 B=KNc4mi^@PZ_Sz:XLfl63
+I__584DUk1=X97VeodQ5LG3
+!i103 1
+S1
+R1
+Z16 w1661217924
+8adder.svh
+Fadder.svh
+Z17 Fadder.sv
+Ftrans.sv
+Fgen.sv
+R10
+Fdrv.sv
+Fmoni.sv
+Fsco.sv
+Fenv.sv
+Ftest.sv
+Z18 Ftb_top.sv
+!i122 1
+L0 6 0
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+Yclk_if
+R3
+R4
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 L?[eLOT99om9iZTCHez6;3
+Ik6`I2Y:5FIHBlQaJc_KbN0
+R7
+S1
+R1
+R8
+R9
+R10
+!i122 1
+L0 19 0
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vmy_adder
+R7
+R4
+R3
+R5
+!i10b 1
+!s100 eVgV88RXg2j<AZCin;5iO1
+IN@ZZ0A=mSfhG=X]0S4Kl83
+S1
+R1
+R16
+8adder.sv
+R17
+!i122 1
+L0 4 10
+R6
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vtb
+R3
+R4
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 LE2DC@BWh;UY_YHk7?gC^2
+I6g3Z3IMeIColOe04ZPD[:1
+R7
+S1
+R1
+w1661216803
+8tb_top.sv
+R18
+!i122 1
+L0 2 23
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2

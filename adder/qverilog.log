@@ -1,0 +1,128 @@
+Start time: 06:55:30 on Aug 23,2022
+qverilog adder.svh 
+-- Compiling module my_adder
+-- Compiling package adder_svh_unit
+** Warning: gen.sv(13): (qverilog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+-- Compiling interface adder_if
+-- Compiling interface clk_if
+-- Compiling module tb
+
+Top level modules:
+	tb
+# vsim -lib work work.adder_svh_unit work.tb -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.adder_svh_unit(fast)
+# Loading work.tb(fast)
+# Loading work.adder_if(fast)
+# Loading work.clk_if(fast)
+# run -all
+# T=0 [Driver] starting ...
+# T=0 [Driver] waiting for item ...
+# T=0 [Monitor] starting ...
+# T=0 [Generator] Loop:1/10 create next item
+# T=0 [Generator] Wait for driver to be done
+# T=10 Driver a=0x1e b=0xea sum=0x0 carry=0x0
+# T=10 [Driver] waiting for item ...
+# T=10 [Generator] Loop:2/10 create next item
+# T=10 [Generator] Wait for driver to be done
+# T=11 Monitor a=0x1e b=0xea sum=0x0 carry=0x0
+# T=11 Scoreboard a=0x1e b=0xea sum=0x0 carry=0x0
+# [11] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [11] Scoreboard Pass! Sum match ref_item=0x0 item=0x0
+# T=30 Driver a=0xb6 b=0x57 sum=0x0 carry=0x0
+# T=30 [Driver] waiting for item ...
+# T=30 [Generator] Loop:3/10 create next item
+# T=30 [Generator] Wait for driver to be done
+# T=31 Monitor a=0xb6 b=0x57 sum=0xd carry=0x1
+# T=31 Scoreboard a=0xb6 b=0x57 sum=0xd carry=0x1
+# [31] Scoreboard Pass! Carry match ref_item=0x1 item=0x1
+# [31] Scoreboard Pass! Sum match ref_item=0xd item=0xd
+# T=50 Driver a=0xa2 b=0x7f sum=0x0 carry=0x0
+# T=50 [Driver] waiting for item ...
+# T=50 [Generator] Loop:4/10 create next item
+# T=50 [Generator] Wait for driver to be done
+# T=51 Monitor a=0xa2 b=0x7f sum=0x0 carry=0x0
+# T=51 Scoreboard a=0xa2 b=0x7f sum=0x0 carry=0x0
+# [51] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [51] Scoreboard Pass! Sum match ref_item=0x0 item=0x0
+# T=70 Driver a=0x16 b=0x57 sum=0x0 carry=0x0
+# T=70 [Driver] waiting for item ...
+# T=70 [Generator] Loop:5/10 create next item
+# T=70 [Generator] Wait for driver to be done
+# T=71 Monitor a=0x16 b=0x57 sum=0x0 carry=0x0
+# T=71 Scoreboard a=0x16 b=0x57 sum=0x0 carry=0x0
+# [71] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [71] Scoreboard Pass! Sum match ref_item=0x0 item=0x0
+# T=90 Driver a=0x19 b=0xc9 sum=0x0 carry=0x0
+# T=90 [Driver] waiting for item ...
+# T=90 [Generator] Loop:6/10 create next item
+# T=90 [Generator] Wait for driver to be done
+# T=91 Monitor a=0x19 b=0xc9 sum=0xe2 carry=0x0
+# T=91 Scoreboard a=0x19 b=0xc9 sum=0xe2 carry=0x0
+# [91] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [91] Scoreboard Pass! Sum match ref_item=0xe2 item=0xe2
+# T=110 Driver a=0x5e b=0x48 sum=0x0 carry=0x0
+# T=110 [Driver] waiting for item ...
+# T=110 [Generator] Loop:7/10 create next item
+# T=110 [Generator] Wait for driver to be done
+# T=111 Monitor a=0x5e b=0x48 sum=0x0 carry=0x0
+# T=111 Scoreboard a=0x5e b=0x48 sum=0x0 carry=0x0
+# [111] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [111] Scoreboard Pass! Sum match ref_item=0x0 item=0x0
+# T=130 Driver a=0xe4 b=0x32 sum=0x0 carry=0x0
+# T=130 [Driver] waiting for item ...
+# T=130 [Generator] Loop:8/10 create next item
+# T=130 [Generator] Wait for driver to be done
+# T=131 Monitor a=0xe4 b=0x32 sum=0x0 carry=0x0
+# T=131 Scoreboard a=0xe4 b=0x32 sum=0x0 carry=0x0
+# [131] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [131] Scoreboard Pass! Sum match ref_item=0x0 item=0x0
+# T=150 Driver a=0xef b=0x81 sum=0x0 carry=0x0
+# T=150 [Driver] waiting for item ...
+# T=150 [Generator] Loop:9/10 create next item
+# T=150 [Generator] Wait for driver to be done
+# T=151 Monitor a=0xef b=0x81 sum=0x70 carry=0x1
+# T=151 Scoreboard a=0xef b=0x81 sum=0x70 carry=0x1
+# [151] Scoreboard Pass! Carry match ref_item=0x1 item=0x1
+# [151] Scoreboard Pass! Sum match ref_item=0x70 item=0x70
+# T=170 Driver a=0xed b=0xba sum=0x0 carry=0x0
+# T=170 [Driver] waiting for item ...
+# T=170 [Generator] Loop:10/10 create next item
+# T=170 [Generator] Wait for driver to be done
+# T=171 Monitor a=0xed b=0xba sum=0x0 carry=0x0
+# T=171 Scoreboard a=0xed b=0xba sum=0x0 carry=0x0
+# [171] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [171] Scoreboard Pass! Sum match ref_item=0x0 item=0x0
+# T=190 Driver a=0xc4 b=0xa4 sum=0x0 carry=0x0
+# T=190 [Driver] waiting for item ...
+# T=191 Monitor a=0xc4 b=0xa4 sum=0x0 carry=0x0
+# T=191 Scoreboard a=0xc4 b=0xa4 sum=0x0 carry=0x0
+# [191] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [191] Scoreboard Pass! Sum match ref_item=0x0 item=0x0
+# T=211 Monitor a=0xc4 b=0xa4 sum=0x0 carry=0x0
+# T=211 Scoreboard a=0xc4 b=0xa4 sum=0x0 carry=0x0
+# [211] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [211] Scoreboard Pass! Sum match ref_item=0x0 item=0x0
+# T=231 Monitor a=0xc4 b=0xa4 sum=0x0 carry=0x0
+# T=231 Scoreboard a=0xc4 b=0xa4 sum=0x0 carry=0x0
+# [231] Scoreboard Pass! Carry match ref_item=0x0 item=0x0
+# [231] Scoreboard Pass! Sum match ref_item=0x0 item=0x0
+# ** Note: $finish    : tb_top.sv(22)
+#    Time: 240 ns  Iteration: 0  Instance: /tb
+# End time: 06:55:43 on Aug 23,2022, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1
