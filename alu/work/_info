@@ -1,0 +1,166 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/dell/Desktop/sv_related/45
+T_opt
+!s11d alu_svh_unit C:/Users/dell/Desktop/sv_related/45/work 1 alu_intf 1 C:/Users/dell/Desktop/sv_related/45/work 
+!s110 1661218261
+Vb3@T_AMJD:G?CnH922AQl1
+04 12 4 work alu_svh_unit fast 0
+04 7 4 work alu_top fast 0
+=1-4a41ba8389de-63042dd5-289-5b44
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+valu
+Z3 !s105 alu_svh_unit
+Z4 DXx4 work 12 alu_svh_unit 0 22 ZE3`6b=EWiXZb<7h_Ae272
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1661218255
+!i10b 1
+!s100 Ph7jZJ<@eke^b5l9NJo]52
+ILLV>fKgbQ9M5l<COanePh1
+S1
+R1
+Z7 w1661168239
+8alu.v
+Z8 Falu.v
+!i122 3
+L0 1 32
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z11 !s108 1661218255.000000
+Z12 !s107 alu_top.sv|alu_tb.sv|alu_env.sv|alu_cfg.sv|alu_cov.sv|alu_scb.sv|alu_mon.sv|alu_drv.sv|alu_gen.sv|alu_tx.sv|alu_intf.sv|alu.v|alu.svh|
+Z13 !s90 alu.svh|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Yalu_intf
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 2elk4LHEA1eTZMd0a`NVV0
+I82AoaGl5PdAgEBd`nL2k[3
+S1
+R1
+R7
+8alu_intf.sv
+Z15 Falu_intf.sv
+!i122 3
+Z16 L0 1 0
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+Xalu_svh_unit
+!s115 alu_intf
+R5
+R6
+VZE3`6b=EWiXZb<7h_Ae272
+r1
+!s85 0
+!i10b 1
+!s100 nGImg0oemd;ioI2PH0A@R1
+IZE3`6b=EWiXZb<7h_Ae272
+!i103 1
+S1
+R1
+Z17 w1661218241
+8alu.svh
+Falu.svh
+R8
+R15
+Falu_tx.sv
+Falu_gen.sv
+Falu_drv.sv
+Falu_mon.sv
+Falu_scb.sv
+Falu_cov.sv
+Falu_cfg.sv
+Falu_env.sv
+Z18 Falu_tb.sv
+Z19 Falu_top.sv
+!i122 3
+R16
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+4alu_tb
+R5
+R4
+R6
+R9
+r1
+!s85 0
+!i10b 1
+!s100 60ibmkhH9@]zdLV0hoaFl0
+I[8=SiQ4f[bQQmkTOMQWC23
+R3
+S1
+R1
+R7
+8alu_tb.sv
+R18
+!i122 3
+R16
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+valu_top
+R5
+R4
+R6
+R9
+r1
+!s85 0
+!i10b 1
+!s100 ?FQLm<bcOU30FkcCfPnmY0
+IfAYclE=E4k?gHdNI;BPDO0
+R3
+S1
+R1
+R17
+8alu_top.sv
+R19
+!i122 3
+L0 1 22
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
