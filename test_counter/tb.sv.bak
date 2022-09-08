@@ -1,0 +1,29 @@
+module tb();
+ 
+environment env;
+ 
+mailbox gdmbx;
+mailbox msmbx;
+ 
+counter_intf vif();
+ //counter16bit(clk,rst,loadin,ld,ud,count);
+counter16bit dut ( .clk(vif.clk), .rst(vif.rst), .ud(vif.ud), .ld(vif.ld),  .loadin(vif.loadin), .count(vif.count));
+ 
+always #5 vif.clk = ~vif.clk;
+ 
+initial begin
+vif.clk = 0;
+end
+ 
+initial begin
+$monitor($time,"\tclock=%b",vif.clk);
+gdmbx = new();
+msmbx = new();
+env = new(gdmbx, msmbx);
+env.vif = vif;
+env.run();
+#500;
+$finish;
+end
+ 
+endmodule

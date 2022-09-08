@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.4e/examples
+T_opt
+Z0 !s110 1662638653
+V3_jM74<3^aLc;5>GK3?Ud3
+04 2 4 work tb fast 0
+=1-98ded012c6f1-6319da3d-1f0-129c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4e;61
+vcounter16bit
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R0
+!i10b 1
+!s100 iCGW6]8=zAT6P=_6nEX=>2
+I3O:OPcBHKM<[I<V2DPTD51
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 top_svh_unit
+S1
+Z4 dC:/Users/zakirhussain/Desktop/sv_practice/test_counter
+w1662619363
+8counter16.sv
+Z5 Fcounter16.sv
+L0 1
+Z6 OL;L;10.4e;61
+r1
+!s85 0
+31
+Z7 !s108 1662638653.000000
+Z8 !s107 tb.sv|env.sv|mon.sv|drvr.sv|intf.sv|gen.sv|tran.sv|counter16.sv|top.svh|
+Z9 !s90 -reportprogress|300|top.svh|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Ycounter_intf
+R1
+Z11 DXx4 work 12 top_svh_unit 0 22 ejXY1l1743JUoc4?OGFRE3
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 [LGlO`DS6ikJAKEF7Q<G^0
+I`nBAZn[XQz`jYEiW77BQa0
+R3
+S1
+R4
+w1662544483
+8intf.sv
+Z12 Fintf.sv
+L0 1
+R6
+R7
+R8
+R9
+!i113 0
+R10
+vtb
+R1
+R11
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Xf1O3eo>c>o@i0c>DWFVb2
+I@bkld5R8QD?R?25O>eMl01
+R3
+S1
+R4
+w1662638080
+8tb.sv
+Z13 Ftb.sv
+L0 1
+R6
+R7
+R8
+R9
+!i113 0
+R10
+Xtop_svh_unit
+R1
+VejXY1l1743JUoc4?OGFRE3
+r1
+!s85 0
+31
+!i10b 1
+!s100 <;dbXGF3ZSldm:C>zbIlN0
+IejXY1l1743JUoc4?OGFRE3
+!i103 1
+S1
+R4
+w1662638645
+8top.svh
+Ftop.svh
+R5
+Ftran.sv
+Fgen.sv
+R12
+Fdrvr.sv
+Fmon.sv
+Fenv.sv
+R13
+L0 1
+R6
+R7
+R8
+R9
+!i113 0
+R10

@@ -1,0 +1,22 @@
+class generator;
+
+transaction tr;
+mailbox mbx;
+
+//event done;
+
+function new(mailbox mbx);
+this.mbx=mbx;
+endfunction
+
+task run();
+repeat(50) begin
+tr=new();
+tr.randomize();
+mbx.put(tr);
+$display($time,"\t[GEN]: Data send to driver :: rst=%b ld=%b ud=%b loadin=%0d", tr.rst, tr.ld, tr.ud, tr.loadin);
+//@(done);
+end
+endtask
+
+endclass

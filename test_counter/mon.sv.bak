@@ -1,0 +1,30 @@
+class monitor;
+
+mailbox msmbx;
+virtual counter_intf vif;
+transaction tr;
+
+function new(mailbox msmbx);
+this.msmbx=msmbx;
+endfunction
+
+
+task run();
+
+tr=new();
+
+forever begin
+@(posedge vif.clk);
+tr.rst=vif.rst;
+tr.ld=vif.ld;
+tr.ud=vif.ud;
+tr.loadin=vif.loadin;
+tr.count=vif.count;
+msmbx.put(tr);
+$display($time,"\t[MON]: Data at Monitor :: rst=%b ld=%b ud=%b loadin=%0d count=%0d",tr.rst, tr.ld, tr.ud, tr.loadin, tr.count);
+
+end
+
+endtask
+
+endclass
