@@ -15,3 +15,5 @@ vlib work # do this the first time, once only
 vlog -f files.txt # compile all the files
 vsim top_module_name
 ```
+
+https://comp.lang.verilog.narkive.com/UoszQyFx/questasim-equivalent-commands-for-icarus-verilog
