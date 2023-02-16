@@ -1,7 +1,7 @@
 class packet;
   rand bit x;
   rand bit [3:0]y;
-  constraint c_2 {solve x before y;}
+  constraint c_2 {solve x before y;} //
   constraint c_1 {(x==1) -> y==0;}
   
 endclass
