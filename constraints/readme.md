@@ -1,3 +1,4 @@
+#### Constraints theory
 ```
 Constraints are of two types 
 
