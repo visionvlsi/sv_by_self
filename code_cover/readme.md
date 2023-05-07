@@ -12,3 +12,5 @@ In the questsim
 
 
 [covergrp_ex1](https://edaplayground.com/x/KsBy)
+
+[covergrp2_ex2](https://edaplayground.com/x/Ps9h)
