@@ -13,3 +13,7 @@ EDAPlayground links:
 
 1. [covergrp_ex1](https://edaplayground.com/x/KsBy)
 2. [covergrp2_ex2](https://edaplayground.com/x/Ps9h)
+
+EDAPlayground using Questasim:
+
+1. https://edaplayground.com/x/bCVp
